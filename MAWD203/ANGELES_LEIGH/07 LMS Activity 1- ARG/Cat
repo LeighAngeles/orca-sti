@@ -1,0 +1,22 @@
+class Cat
+{
+    String catType;
+    int cutenessLvl;
+
+    public Cat()
+    {
+        catType = "Unknown";
+        cutenessLvl = 3;
+    }
+    
+    public Cat(String type, int Lvl)
+    {
+        catType = type;
+        cutenessLvl = Lvl;
+    }
+    
+    public int getCuteness()
+    {
+        return cutenessLvl;
+    }
+}
