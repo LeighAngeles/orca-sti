@@ -8,7 +8,7 @@ public class DemoParty {
         System.out.print("Enter the number of guests for the dinner party: ");
         dinnerParty.setNumGuests(scan.nextInt());
 
-        System.out.print("Enter the menu option (1 for chicken or 2 for beef): ");
+        System.out.print("Enter the menu option (1 for pizza or 2 for burger): ");
         dinnerParty.setFoodChoice(scan.nextInt());
 
         System.out.println("The dinner party has " + dinnerParty.getNumGuests() + " guests.");
